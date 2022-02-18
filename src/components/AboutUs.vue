@@ -36,9 +36,9 @@ export default {
 	background-image: url("../assets/images/business-people-working-together-on-project-and-5FHSKBL.jpg");
 	background-repeat: no-repeat;
 	background-position: top left;
-	background-color: $bg-darkblue;
+	background-color: $darkblue;
 	height: 800px;
-	color: $text-white;
+	color: $white;
 	#spotlight {
 		padding: 240px 0 50px 0;
 		h2 {
@@ -52,12 +52,12 @@ export default {
 			line-height: 60px;
 		}
 		span {
-			color: $text-grey;
+			color: $grey;
 		}
 		.highlight {
 			margin: 0 15px 5px 0;
 			width: 50px;
-			border-bottom: 2px solid $text-aqua;
+			border-bottom: 2px solid $aqua;
 		}
 	}
 }

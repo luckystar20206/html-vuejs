@@ -41,11 +41,11 @@ export default {
 		font-weight: 100;
 	}
 	li.active {
-		border-top: 5px solid $text-white;
+		border-top: 5px solid $white;
 		font-weight: 700;
 	}
 	li:hover {
-		border-top: 5px solid $text-darkblue;
+		border-top: 5px solid $darkblue;
 	}
 }
 </style>

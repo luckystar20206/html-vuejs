@@ -86,19 +86,19 @@ export default {
 		font-weight: 600;
 	}
 	p {
-		color: $text-grey;
+		color: $grey;
 	}
 	.highlight {
 		width: 100%;
 		margin-bottom: 125px;
-		border-bottom: 4px solid $text-aqua;
+		border-bottom: 4px solid $aqua;
 	}
 	.fa-solid {
 		padding: 25px 25px;
 		font-size: 28px;
-		background-color: $bg-red;
+		background-color: $red;
 		border-radius: 50%;
-		color: $text-white;
+		color: $white;
 	}
 }
 .statistical,

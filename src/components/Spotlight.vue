@@ -41,21 +41,21 @@ export default {
 	.highlight {
 		margin: 0 15px 5px 0;
 		width: 50px;
-		border-bottom: 2px solid $text-aqua;
+		border-bottom: 2px solid $aqua;
 	}
 }
 .read-more {
 	padding: 25px 50px;
-	background-color: $bg-aqua;
-	color: $text-black;
+	background-color: $aqua;
+	color: $black;
 	margin-right: 30px;
 	letter-spacing: 3px;
 }
 .fa-play {
-	border: 2px solid $text-white;
+	border: 2px solid $white;
 	border-radius: 50%;
 	padding: 15px 16px 15px 18px;
 	font-size: 16px;
-	color: $text-aqua;
+	color: $aqua;
 }
 </style>

@@ -24,9 +24,9 @@ header {
 	background-image: url("../assets/images/portrait-of-young-architect-woman-on-meeting-KFZCE3A.jpg");
 	background-repeat: no-repeat;
 	background-position: top right;
-	background-color: $bg-darkblue;
+	background-color: $darkblue;
 
 	height: 1000px;
-	color: $text-white;
+	color: $white;
 }
 </style>
