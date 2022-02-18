@@ -2,18 +2,20 @@
 	<main>
 		<Consultants />
 		<AboutUs />
-		<section id="projects"></section>
-		<section id="blog"></section>
+		<Project />
+		<Blog />
 	</main>
 </template>
 
 <script>
 import Consultants from "./Consultants.vue";
 import AboutUs from "./AboutUs.vue";
+import Project from "./Project.vue";
+import Blog from "./Blog.vue";
 
 export default {
 	name: "Main",
-	components: { Consultants, AboutUs },
+	components: { Consultants, AboutUs, Project, Blog },
 };
 </script>
 
