@@ -55,7 +55,7 @@ header {
 	background-repeat: no-repeat;
 	background-position: top right;
 	background-color: $bg-darkblue;
-	background-size: 1270px;
+
 	height: 1000px;
 	color: $text-white;
 
@@ -83,7 +83,6 @@ header {
 	}
 	#spotlight {
 		padding: 240px 0 50px 0;
-		position: relative;
 
 		h2 {
 			letter-spacing: 3px;

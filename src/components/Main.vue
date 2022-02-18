@@ -1,7 +1,7 @@
 <template>
 	<main>
 		<Consultants />
-		<section id="about-us"></section>
+		<AboutUs />
 		<section id="projects"></section>
 		<section id="blog"></section>
 	</main>
@@ -9,10 +9,11 @@
 
 <script>
 import Consultants from "./Consultants.vue";
+import AboutUs from "./AboutUs.vue";
 
 export default {
 	name: "Main",
-	components: { Consultants },
+	components: { Consultants, AboutUs },
 };
 </script>
 
