@@ -10,4 +10,8 @@ export default {
 
 <style lang="scss" scoped>
 @import "../assets/sass/_vars.scss";
+#project {
+	background-color: $darkblue;
+	height: 600px;
+}
 </style>

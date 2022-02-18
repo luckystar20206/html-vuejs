@@ -46,6 +46,7 @@ export default {
 	}
 	li:hover {
 		border-top: 5px solid $darkblue;
+		font-weight: 700;
 	}
 }
 </style>
