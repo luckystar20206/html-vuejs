@@ -20,6 +20,6 @@ export default {
 <style lang="scss">
 @import "./assets/sass/style.scss";
 body {
-  font-family: $primary-font;
+	font-family: $primary-font;
 }
 </style>

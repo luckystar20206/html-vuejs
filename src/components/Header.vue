@@ -1,13 +1,13 @@
 <template>
 	<header>
-		<div class="cs-container">
+		<div class="container">
 			<div class="row">
 				<div class="col-12">
 					<div
 						id="navbar"
 						class="d-flex justify-content-between align-items-center"
 					>
-						<div class="logo">
+						<div class="logo" role="button">
 							<img src="../assets/images/logotype.png" alt="logo" />
 						</div>
 						<div class="nav">
@@ -56,7 +56,7 @@ header {
 	background-position: top right;
 	background-color: $bg-darkblue;
 	background-size: 1270px;
-	height: 100vh;
+	height: 1000px;
 	color: $text-white;
 
 	#navbar {
