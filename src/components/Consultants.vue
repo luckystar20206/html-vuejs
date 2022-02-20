@@ -6,8 +6,8 @@
 		</div>
 		<div class="container">
 			<div class="row">
-				<div class="col-6">
-					<div class="statistical d-flex flex-row">
+				<div class="col-12 d-flex flex-wrap">
+					<div class="statistical col-6 d-flex flex-row">
 						<div>
 							<i class="fa-solid fa-chart-column" role="button"></i>
 						</div>
@@ -20,7 +20,18 @@
 							</p>
 						</div>
 					</div>
-					<div class="banking d-flex flex-row">
+					<div class="digital col-6 d-flex flex-row">
+						<div><i class="fa-solid fa-bullhorn" role="button"></i></div>
+						<div>
+							<h4 class="ps-5">DIGITAL CONSULTING</h4>
+							<p class="ps-5">
+								When, while lovely valley teems with vapour around meand eridian
+								sun strikes the upper impenetrable foliage of my trees, and but
+								a
+							</p>
+						</div>
+					</div>
+					<div class="banking col-6 d-flex flex-row">
 						<div>
 							<i class="fa-solid fa-wallet" role="button"></i>
 						</div>
@@ -33,20 +44,7 @@
 							</p>
 						</div>
 					</div>
-				</div>
-				<div class="col-6">
-					<div class="digital d-flex flex-row">
-						<div><i class="fa-solid fa-bullhorn" role="button"></i></div>
-						<div>
-							<h4 class="ps-5">DIGITAL CONSULTING</h4>
-							<p class="ps-5">
-								When, while lovely valley teems with vapour around meand eridian
-								sun strikes the upper impenetrable foliage of my trees, and but
-								a
-							</p>
-						</div>
-					</div>
-					<div class="enterprise d-flex flex-row">
+					<div class="enterprise col-6 d-flex flex-row">
 						<div><i class="fa-solid fa-minimize" role="button"></i></div>
 						<div>
 							<h4 class="ps-5">ENTERPRISE CONSULTING</h4>

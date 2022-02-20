@@ -36,15 +36,15 @@ export default {
 					},
 					{
 						url: "#",
-						title: "banking consulting",
-						text: "When, while lovely valley teems with vapour around meand eridian sun strikes the upper impenetrable foliage of my trees, and but a",
-						icon: "fa-solid fa-wallet",
-					},
-					{
-						url: "#",
 						title: "digital consulting",
 						text: "When, while lovely valley teems with vapour around meand eridian sun strikes the upper impenetrable foliage of my trees, and but a",
 						icon: "fa-solid fa-bullhorn",
+					},
+					{
+						url: "#",
+						title: "banking consulting",
+						text: "When, while lovely valley teems with vapour around meand eridian sun strikes the upper impenetrable foliage of my trees, and but a",
+						icon: "fa-solid fa-wallet",
 					},
 					{
 						url: "#",

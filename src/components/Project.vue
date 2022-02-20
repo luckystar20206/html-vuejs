@@ -30,21 +30,21 @@
 				<div class="project-images col-12 d-flex justify-content-between g-1">
 					<div class="filter-container">
 						<img src="../assets/images/DRY-1-790x592.jpg" alt="dry project" />
-						<div class="filter-box"></div>
+						<div class="filter-box btn-transition"></div>
 					</div>
 					<div class="filter-container">
 						<img
 							src="../assets/images/221bf0b7-8134-43bb-936a-5acbe42db64a-790x592.jpg"
 							alt="sponsorship project"
 						/>
-						<div class="filter-box"></div>
+						<div class="filter-box btn-transition"></div>
 					</div>
 					<div class="filter-container">
 						<img
 							src="../assets/images/z1el4c4p-790x592.jpg"
 							alt="consultant project"
 						/>
-						<div class="filter-box"></div>
+						<div class="filter-box btn-transition"></div>
 					</div>
 				</div>
 				<div class="col-12 d-flex flex-column">
@@ -125,7 +125,6 @@ export default {
 				height: 300px;
 			}
 			.filter-box:hover {
-				z-index: 1;
 				background-color: $red-opacity;
 			}
 		}
