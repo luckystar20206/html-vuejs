@@ -32,7 +32,7 @@
 								meridian sun strikes the upper impenetrable foliage of my trees,
 								and but a thousand unknown
 							</p>
-							<a class="get-started" href="#" role="button">GET STARTED</a>
+							<a class="get-started btn-transition" href="#" role="button">GET STARTED</a>
 						</div>
 					</div>
 				</div>
@@ -86,6 +86,7 @@ export default {
 		color: $darkblue;
 
 		.get-started {
+			color: $white;
 			padding: 25px 50px;
 			background-color: $red;
 			margin-right: 30px;
@@ -94,13 +95,13 @@ export default {
 			bottom: 0;
 			right: -30px;
 		}
+		.get-started:hover {
+			background-color: $darkblue;
+		}
 		h4 {
 			font-family: $secondary-font;
 			font-size: 34px;
 			font-weight: bold;
-		}
-		a.get-started:hover {
-			color: $darkblue;
 		}
 	}
 }

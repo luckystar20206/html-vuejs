@@ -8,10 +8,10 @@
 			<p class="pt-3">THE BEST BUSINESS CONSULTING</p>
 		</div>
 		<div class="d-flex align-items-center">
-			<div class="button">
-				<a class="read-more" href="#">READ MORE</a>
+			<div class="button btn-transition">
+				<a class="read-more btn-transition" href="#">READ MORE</a>
 			</div>
-			<i class="fa-solid fa-play" role="button"></i>
+			<i class="fa-solid fa-play transition" role="button"></i>
 		</div>
 	</div>
 </template>
@@ -51,11 +51,20 @@ export default {
 	margin-right: 30px;
 	letter-spacing: 3px;
 }
+.read-more:hover {
+	background-color: $red;
+	color: $white;
+}
+
 .fa-play {
 	border: 2px solid $white;
 	border-radius: 50%;
 	padding: 15px 16px 15px 18px;
 	font-size: 16px;
 	color: $aqua;
+	transform: scale(0.9);
+}
+.fa-play:hover {
+	transform: scale(1);
 }
 </style>

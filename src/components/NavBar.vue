@@ -1,17 +1,17 @@
 <template>
 	<div class="col-12">
 		<div id="navbar" class="d-flex justify-content-between align-items-center">
-			<div class="logo" role="button">
+			<div class="logo">
 				<img src="../assets/images/logotype.png" alt="logo" />
 			</div>
 			<div class="nav">
 				<ul class="list-unstyled d-flex">
-					<li class="active"><a href="#">HOME</a></li>
-					<li><a href="#">ABOUT</a></li>
-					<li><a href="#">PROJECTS</a></li>
-					<li><a href="#">SERVICES</a></li>
-					<li><a href="#">BLOG</a></li>
-					<li><a href="#">CONTACTS</a></li>
+					<li class="active"><a class="transition" href="#">HOME</a></li>
+					<li class="transition" ><a href="#">ABOUT</a></li>
+					<li class="transition" ><a href="#">PROJECTS</a></li>
+					<li class="transition" ><a href="#">SERVICES</a></li>
+					<li class="transition" ><a href="#">BLOG</a></li>
+					<li class="transition" ><a href="#">CONTACTS</a></li>
 				</ul>
 			</div>
 		</div>
@@ -31,7 +31,7 @@ export default {
 	letter-spacing: 0.5px;
 
 	.logo img {
-		width: 110px;
+		width: 150px;
 		height: auto;
 	}
 	li {
@@ -40,13 +40,15 @@ export default {
 		border-top: 5px solid transparent;
 		font-weight: 100;
 	}
+	li:hover {
+		border-top: 5px solid $white;
+	}
 	li.active {
 		border-top: 5px solid $white;
-		font-weight: 700;
+		font-weight: 600;
 	}
-	li:hover {
-		border-top: 5px solid $darkblue;
-		font-weight: 700;
+	li:hover a {
+		color: $white;
 	}
 }
 </style>

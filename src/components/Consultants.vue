@@ -9,7 +9,7 @@
 				<div class="col-6">
 					<div class="statistical d-flex flex-row">
 						<div>
-							<i class="fa-solid fa-chart-column"></i>
+							<i class="fa-solid fa-chart-column" role="button"></i>
 						</div>
 						<div>
 							<h4 class="ps-5">STATISTICAL CONSULTING</h4>
@@ -22,7 +22,7 @@
 					</div>
 					<div class="banking d-flex flex-row">
 						<div>
-							<i class="fa-solid fa-wallet"></i>
+							<i class="fa-solid fa-wallet" role="button"></i>
 						</div>
 						<div>
 							<h4 class="ps-5">BANKING CONSULTING</h4>
@@ -36,7 +36,7 @@
 				</div>
 				<div class="col-6">
 					<div class="digital d-flex flex-row">
-						<div><i class="fa-solid fa-bullhorn"></i></div>
+						<div><i class="fa-solid fa-bullhorn" role="button"></i></div>
 						<div>
 							<h4 class="ps-5">DIGITAL CONSULTING</h4>
 							<p class="ps-5">
@@ -47,7 +47,7 @@
 						</div>
 					</div>
 					<div class="enterprise d-flex flex-row">
-						<div><i class="fa-solid fa-minimize"></i></div>
+						<div><i class="fa-solid fa-minimize" role="button"></i></div>
 						<div>
 							<h4 class="ps-5">ENTERPRISE CONSULTING</h4>
 							<p class="ps-5">

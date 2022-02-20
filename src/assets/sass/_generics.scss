@@ -2,6 +2,11 @@ a {
     text-decoration: none;
     color: currentColor;
 }
-li:hover a {
-    color: $darkblue;
+
+.transition {
+    transition: all 0.2s ease-out;
+}
+
+.btn-transition {
+    transition: all 1s ease-out;
 }

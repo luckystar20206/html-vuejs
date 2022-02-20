@@ -19,6 +19,18 @@ export default {
 
 <style lang="scss">
 @import "./assets/sass/style.scss";
+*::-webkit-scrollbar {
+	width: 8px;
+}
+
+*::-webkit-scrollbar-track {
+	background: $darkblue;
+}
+
+*::-webkit-scrollbar-thumb {
+	background-color: $aqua;
+	border: 3px solid $aqua;
+}
 body {
 	font-family: $primary-font;
 }
