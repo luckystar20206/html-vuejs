@@ -79,7 +79,7 @@ export default {
 		}
 	}
 	.slide-in {
-		height: 300px;
+		height: 400px;
 		width: 1600px;
 		background-color: $aqua;
 		position: absolute;

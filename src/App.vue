@@ -23,6 +23,6 @@ body {
 	font-family: $primary-font;
 }
 main {
-	overflow-x: hidden;
+	overflow: hidden;
 }
 </style>

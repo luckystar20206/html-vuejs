@@ -2,9 +2,9 @@
 	<section id="project">
 		<div class="container">
 			<div class="row main-project">
-				<div class="col-12">
+				<div class="col-12 pb-5">
 					<div class="d-flex align-items-center">
-						<div class="highlight"></div>
+						<div class="highlight mb-2 me-2"></div>
 						<h2>PROJECT</h2>
 					</div>
 					<div class="d-flex justify-content-between align-items-center">
@@ -12,12 +12,12 @@
 							OUR EXPERT TRUSTED CONSULTANTS HELP CLIENTS
 						</p>
 						<div>
-							<i class="fa-solid fa-arrow-left-long" role="button"></i>
-							<i class="fa-solid fa-arrow-right-long" role="button"></i>
+							<a href="#"><i class="fa-solid fa-arrow-left-long" role="button"></i></a>
+							<a href="#"><i class="fa-solid fa-arrow-right-long" role="button"></i></a>
 						</div>
 					</div>
 				</div>
-				<div class="project-images col-12 d-flex justify-content-between gx-2">
+				<div class="project-images col-12 d-flex justify-content-between g-1">
 					<img src="../assets/images/DRY-1-790x592.jpg" alt="dry project" />
 					<img
 						src="../assets/images/221bf0b7-8134-43bb-936a-5acbe42db64a-790x592.jpg"
@@ -94,9 +94,9 @@ export default {
 	color: $white;
 	padding-top: 350px;
 	background-color: $darkblue;
+	
 	.main-project {
 		.highlight {
-			margin: 0 15px 5px 0;
 			width: 50px;
 			border-bottom: 2px solid $aqua;
 		}
@@ -112,6 +112,9 @@ export default {
 		}
 		.fa-arrow-left-long {
 			margin-right: 20px;
+		}
+		a:hover {
+			color: $red;
 		}
 		i {
 			font-size: 18px;
@@ -130,13 +133,18 @@ export default {
 		}
 	}
 	.slide-in {
-		height: 300px;
+		height: 400px;
 		width: 1600px;
 		background-color: $white;
 		color: $darkblue;
 
 		h5 {
+			font-size: 26px;
+			letter-spacing: -2px;
 			font-family: $secondary-font;
+		}
+		span,p {
+			color: $grey;
 		}
 	}
 }
