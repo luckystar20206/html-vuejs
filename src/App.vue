@@ -22,4 +22,7 @@ export default {
 body {
 	font-family: $primary-font;
 }
+main {
+	overflow-x: hidden;
+}
 </style>

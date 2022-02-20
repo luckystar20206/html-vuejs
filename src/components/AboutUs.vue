@@ -80,9 +80,9 @@ export default {
 	}
 	.slide-in {
 		height: 300px;
-		width: 1700px;
+		width: 1600px;
 		background-color: $aqua;
-		position: relative;
+		position: absolute;
 		color: $darkblue;
 
 		.get-started {
