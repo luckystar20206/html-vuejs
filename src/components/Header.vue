@@ -63,7 +63,6 @@ header {
 	background-position: top right;
 
 	height: 1000px;
-	color: $alfa_color;
 
 	.fixed-icons {
 		position: fixed;
@@ -73,29 +72,6 @@ header {
 	}
 	a + a {
 		margin: 0 50px 0 20px;
-	}
-	.fa-comment {
-		font-size: 26px;
-		padding: 16px;
-		border-radius: 50%;
-		background-color: $lilac;
-	}
-	.fa-comment:hover {
-		color: $alfa_color;
-		transform: scale(1.2);
-	}
-
-	.fa-arrow-up {
-		font-size: 14px;
-		padding: 12px 15px;
-		border-radius: 50%;
-		color: $black;
-		background-color: $alfa_color;
-		border: 1px solid $black;
-	}
-	.fa-arrow-up:hover {
-		color: $alfa_color;
-		background-color: $black;
 	}
 }
 </style>

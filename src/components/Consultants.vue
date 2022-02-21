@@ -6,14 +6,14 @@
 		</div>
 		<div class="container">
 			<div class="row">
-				<div class="col-12 d-flex flex-wrap">
+				<div class="consults col-12 d-flex flex-wrap">
 					<div class="statistical col-6 d-flex flex-row">
 						<div>
 							<i class="fa-solid fa-chart-column" role="button"></i>
 						</div>
 						<div>
 							<h4 class="ps-5">STATISTICAL CONSULTING</h4>
-							<p class="ps-5">
+							<p class="px-5">
 								When, while lovely valley teems with vapour around meand eridian
 								sun strikes the upper impenetrable foliage of my trees, and but
 								a
@@ -24,7 +24,7 @@
 						<div><i class="fa-solid fa-bullhorn" role="button"></i></div>
 						<div>
 							<h4 class="ps-5">DIGITAL CONSULTING</h4>
-							<p class="ps-5">
+							<p class="px-5">
 								When, while lovely valley teems with vapour around meand eridian
 								sun strikes the upper impenetrable foliage of my trees, and but
 								a
@@ -37,7 +37,7 @@
 						</div>
 						<div>
 							<h4 class="ps-5">BANKING CONSULTING</h4>
-							<p class="ps-5">
+							<p class="px-5">
 								When, while lovely valley teems with vapour around meand eridian
 								sun strikes the upper impenetrable foliage of my trees, and but
 								a
@@ -48,7 +48,7 @@
 						<div><i class="fa-solid fa-minimize" role="button"></i></div>
 						<div>
 							<h4 class="ps-5">ENTERPRISE CONSULTING</h4>
-							<p class="ps-5">
+							<p class="px-5">
 								When, while lovely valley teems with vapour around meand eridian
 								sun strikes the upper impenetrable foliage of my trees, and but
 								a
@@ -70,38 +70,19 @@ export default {
 <style lang="scss" scoped>
 @import "../assets/sass/_vars.scss";
 #consultants {
+	color: $black;
 	padding: 150px 0;
 	background-color: $alfa_color;
-
-	.statistical,
-	.digital {
-		padding-bottom: 100px;
-	}
-	h3 {
-		padding-left: 300px;
-		padding-bottom: 100px;
-		width: 70%;
-		font-size: 30px;
-	}
-	h4,
-	h3 {
-		font-family: $secondary-font;
-		font-weight: 600;
-	}
-	p {
-		color: $omega_color;
+	h4 {
+		font-size: 22px;
 	}
 	.highlight {
 		width: 100%;
 		margin-bottom: 125px;
-		border-bottom: 4px solid $psi_color;
+		margin-right: 0;
 	}
-	.fa-solid {
-		padding: 25px 25px;
-		font-size: 28px;
-		background-color: $gamma_color;
-		border-radius: 50%;
-		color: $alfa_color;
+	.consults > div {
+		padding-bottom: 30px;
 	}
 }
 </style>

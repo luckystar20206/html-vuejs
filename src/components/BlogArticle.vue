@@ -42,30 +42,17 @@ export default {
 
 <style scoped lang="scss">
 @import "../assets/sass/_vars.scss";
-img {
-	margin-bottom: 100px;
-	width: 650px;
-	height: auto;
-}
 .article-box {
 	position: absolute;
 	bottom: 0;
 	right: 0;
 }
-article:hover {
-	background-color: $psi_color;
-}
 article {
 	background-color: $alfa_color;
 	padding: 40px;
 }
-h6 {
-	font-size: 30px;
-	color: $black;
-	font-family: $secondary-font;
-}
-span {
-	color: $omega_color;
+article:hover {
+	background-color: $psi_color;
 }
 time {
 	font-weight: 500;

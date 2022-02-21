@@ -31,24 +31,8 @@ export default {
 <style lang="scss" scoped>
 @import "../assets/sass/_vars.scss";
 #blog {
-	color: $alfa_color;
 	padding-top: 250px;
 
-	h2, a {
-		letter-spacing: 3px;
-		font-size: 16px;
-	}
-	p {
-		font-family: $secondary-font;
-		font-size: 44px;
-		font-weight: 700;
-		line-height: 60px;
-	}
-	.highlight {
-		margin: 0 15px 5px 0;
-		width: 50px;
-		border-bottom: 2px solid $psi_color;
-	}
 	a {
 		padding: 25px 50px;
 		background-color: $psi_color;

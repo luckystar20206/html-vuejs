@@ -1,0 +1,156 @@
+// # Unstyle anchors
+a {
+    text-decoration: none;
+    color: currentColor;
+}
+
+// # Transition effects
+.transition {
+    transition: all 0.2s ease-out;
+}
+
+.btn-transition {
+    transition: all 1s ease-out;
+}
+
+// # Icons
+
+// * Fixed scroll icons
+.fa-comment {
+    font-size: 26px;
+    padding: 16px;
+    border-radius: 50%;
+    background-color: $lilac;
+}
+.fa-comment:hover {
+    color: $alfa_color;
+    transform: scale(1.2);
+}
+
+.fa-arrow-up {
+    font-size: 14px;
+    padding: 12px 15px;
+    border-radius: 50%;
+    color: $black;
+    background-color: $alfa_color;
+    border: 1px solid $black;
+}
+.fa-arrow-up:hover {
+    color: $alfa_color;
+    background-color: $black;
+}
+
+// * Spotlight icons
+.fa-play {
+    border: 2px solid $alfa_color;
+    border-radius: 50%;
+    padding: 15px 16px 15px 18px;
+    font-size: 12px;
+    color: $psi_color;
+}
+.fa-play:hover {
+    transform: scale(1.2);
+}
+
+// Consultants section icons
+#consultants .fa-solid {
+    padding: 25px 25px;
+    font-size: 20px;
+    background-color: $gamma_color;
+    border-radius: 50%;
+    color: $alfa_color;
+}
+#consultants .fa-solid:hover {
+    transform: scale(1.2);
+}
+
+// Project section icons
+.fa-arrow-left-long {
+    margin-right: 20px;
+}
+
+// # Images
+.logo img {
+    width: 150px;
+    height: auto;
+}
+#project img {
+    width: 420px;
+    height: 300px;
+}
+#blog img {
+    margin-bottom: 100px;
+    width: 650px;
+    height: auto;
+}
+
+// # Highlight div
+.highlight {
+    width: 50px;
+    margin: 0 15px 5px 0;
+    border-bottom: 2px solid $psi_color;
+}
+
+// # Buttons
+.cs-button {
+    padding: 25px 50px;
+    letter-spacing: 3px;
+}
+
+// # Text styles
+h2,
+#blog a {
+    letter-spacing: 3px;
+    font-size: 16px;
+}
+h3 {
+    padding-left: 300px;
+    padding-bottom: 100px;
+    width: 70%;
+    font-size: 30px;
+}
+h3,
+h4 {
+    font-family: $secondary-font;
+    font-weight: 600;
+}
+h4 {
+    font-family: $secondary-font;
+    font-size: 34px;
+    font-weight: bold;
+}
+h5 {
+    font-size: 26px;
+    letter-spacing: -2px;
+    font-family: $secondary-font;
+}
+h6 {
+    font-size: 30px;
+    color: $black;
+    font-family: $secondary-font;
+}
+p {
+    font-family: $secondary-font;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 60px;
+}
+#consultants p,
+.side-section p,
+#project .testimonial-reviews p,
+#footer-spotlight p {
+    font-size: 16px;
+    font-weight: normal;
+    line-height: initial;
+    color: $omega_color;
+}
+#blog p,
+#project p, #footer-spotlight h2 {
+    font-family: $secondary-font;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 60px;
+}
+span {
+    color: $omega_color;
+}

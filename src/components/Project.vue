@@ -47,54 +47,26 @@
 						<div class="filter-box btn-transition"></div>
 					</div>
 				</div>
-				<div class="col-12 d-flex flex-column">
-					<h2 class="text-center">TESTIMONIAL</h2>
-					<div
-						class="col-7 d-flex flex-column align-items-end align-self-end pt-4"
-					>
-						<div class="highlight"></div>
-						<p class="cs-right-text">WHAT'S THE CUSTOMER SAY ABOUT OUR WORK</p>
-					</div>
-				</div>
 			</div>
-			<SlideProject />
+			<Testimonial />
 		</div>
 	</section>
 </template>
 
 <script>
-import SlideProject from "@/components/SlideProject";
+import Testimonial from "@/components/Testimonial";
 export default {
 	name: "Project",
-	components: { SlideProject },
+	components: { Testimonial },
 };
 </script>
 
 <style lang="scss" scoped>
 @import "../assets/sass/_vars.scss";
 #project {
-	color: $alfa_color;
-	padding-top: 350px;
-	background-color: $beta_color;
+	padding-top: 550px;
 
 	.main-project {
-		.highlight {
-			width: 50px;
-			border-bottom: 2px solid $psi_color;
-		}
-		h2 {
-			letter-spacing: 3px;
-			font-size: 16px;
-		}
-		p {
-			font-family: $secondary-font;
-			font-size: 44px;
-			font-weight: 700;
-			line-height: 60px;
-		}
-		.fa-arrow-left-long {
-			margin-right: 20px;
-		}
 		i {
 			font-size: 18px;
 			padding: 18px;
@@ -106,30 +78,23 @@ export default {
 		i:hover {
 			background-color: $psi_color;
 		}
-		.project-images {
-			padding-bottom: 100px;
+	}
+	.project-images {
+		padding-bottom: 100px;
 
-			.filter-container {
-				position: relative;
-				cursor: pointer;
-			}
-			.filter-box {
-				height: 300px;
-				width: 420px;
-				position: absolute;
-				top: 0;
-				left: 0;
-			}
-			img {
-				width: 420px;
-				height: 300px;
-			}
-			.filter-box:hover {
-				background-color: $red-opacity;
-			}
+		.filter-container {
+			position: relative;
+			cursor: pointer;
 		}
-		.cs-right-text {
-			text-align: right;
+		.filter-box {
+			height: 300px;
+			width: 420px;
+			position: absolute;
+			top: 0;
+			left: 0;
+		}
+		.filter-box:hover {
+			background-color: $red-opacity;
 		}
 	}
 }

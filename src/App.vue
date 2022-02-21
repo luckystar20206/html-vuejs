@@ -123,6 +123,7 @@ export default {
 	border: 3px solid $psi_color;
 }
 body {
+	color: $alfa_color;
 	font-family: $primary-font;
 	background-color: $beta_color;
 }

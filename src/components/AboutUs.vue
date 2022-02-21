@@ -1,9 +1,9 @@
 <template>
 	<section id="about-us">
-		<div class="container ps-0 ms-0 ">
+		<div class="container-fluid ps-0 ms-0 ">
 			<div class="row ">
-				<div class="col-5 offset-11 ">
-					<div id="spotlight" class="d-flex flex-column justify-content-center">
+				<div class="col-4 offset-7">
+					<div id="spotlight" class="d-flex flex-column justify-content-center px-5">
 						<div class="spotlight-title">
 							<div class="highlight"></div>
 							<h2>ABOUT US</h2>
@@ -19,7 +19,7 @@
 						</span>
 					</div>
 				</div>
-				<div class="slide-in">
+				<div class="side-section">
 					<div class="container h-100">
 						<div class="row h-100 align-items-center">
 							<div class="col-4 offset-1">
@@ -31,7 +31,7 @@
 									meridian sun strikes the upper impenetrable foliage of my
 									trees, and but a thousand unknown
 								</p>
-								<a class="get-started btn-transition" href="#" role="button"
+								<a class="cs-button btn-transition" href="#" role="button"
 									>GET STARTED</a
 								>
 							</div>
@@ -56,53 +56,32 @@ export default {
 	background-repeat: no-repeat;
 	background-position: top left;
 	height: 800px;
-	color: $alfa_color;
 
 	#spotlight {
 		height: 800px;
-		
-		h2 {
-			letter-spacing: 3px;
-			font-size: 16px;
-		}
-		p {
-			font-family: $secondary-font;
-			font-size: 60px;
-			font-weight: 700;
-			line-height: 60px;
-		}
-		span {
-			color: $omega_color;
-		}
-		.highlight {
-			margin: 0 15px 5px 0;
-			width: 50px;
-			border-bottom: 2px solid $psi_color;
-		}
 	}
-	.slide-in {
-		height: 300px;
+	.highlight {
+		margin-bottom: 8px;
+	}
+	.side-section {
+		height: 400px;
+		width: 85%;
 		background-color: $psi_color;
 		position: relative;
 		color: $beta_color;
 
-		.get-started {
+		.cs-button {
 			color: $alfa_color;
-			padding: 25px 50px;
 			background-color: $gamma_color;
-			margin-right: 30px;
-			letter-spacing: 3px;
 			position: absolute;
 			bottom: 0;
-			right: -30px;
+			right: 0;
 		}
-		.get-started:hover {
+		.cs-button:hover {
 			background-color: $beta_color;
 		}
-		h4 {
-			font-family: $secondary-font;
-			font-size: 34px;
-			font-weight: bold;
+		p {
+			color: $beta_color
 		}
 	}
 }

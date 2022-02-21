@@ -78,7 +78,6 @@ export default {
 	}
 }
 .rights {
-	color: $grey;
 	height: 100px;
 	font-size: 14px;
 }

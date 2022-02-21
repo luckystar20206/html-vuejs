@@ -30,10 +30,6 @@ export default {
 	height: 80px;
 	letter-spacing: 0.5px;
 
-	.logo img {
-		width: 150px;
-		height: auto;
-	}
 	li {
 		padding: 20px 0;
 		margin: 0 15px;
