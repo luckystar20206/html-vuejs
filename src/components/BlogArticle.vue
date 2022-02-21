@@ -53,10 +53,10 @@ img {
 	right: 0;
 }
 article:hover {
-	background-color: $aqua;
+	background-color: $psi_color;
 }
 article {
-	background-color: $white;
+	background-color: $alfa_color;
 	padding: 40px;
 }
 h6 {
@@ -65,10 +65,10 @@ h6 {
 	font-family: $secondary-font;
 }
 span {
-	color: $grey;
+	color: $omega_color;
 }
 time {
 	font-weight: 500;
-	color: $red;
+	color: $gamma_color;
 }
 </style>

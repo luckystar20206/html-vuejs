@@ -31,10 +31,10 @@ export default {
 <style lang="scss" scoped>
 @import "../assets/sass/_vars.scss";
 #blog {
-	color: $white;
+	color: $alfa_color;
 	padding-top: 250px;
-	background-color: $darkblue;
-	h2 {
+
+	h2, a {
 		letter-spacing: 3px;
 		font-size: 16px;
 	}
@@ -47,17 +47,16 @@ export default {
 	.highlight {
 		margin: 0 15px 5px 0;
 		width: 50px;
-		border-bottom: 2px solid $aqua;
+		border-bottom: 2px solid $psi_color;
 	}
 	a {
 		padding: 25px 50px;
-		background-color: $aqua;
+		background-color: $psi_color;
 		color: $black;
-		letter-spacing: 3px;
 	}
-	a.view-all:hover {
-		color: $white;
-		background-color: $red;
+	a:hover {
+		color: $alfa_color;
+		background-color: $gamma_color;
 	}
 }
 </style>

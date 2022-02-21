@@ -61,10 +61,9 @@ header {
 	background-image: url("../assets/images/portrait-of-young-architect-woman-on-meeting-KFZCE3A.jpg");
 	background-repeat: no-repeat;
 	background-position: top right;
-	background-color: $darkblue;
 
 	height: 1000px;
-	color: $white;
+	color: $alfa_color;
 
 	.fixed-icons {
 		position: fixed;
@@ -82,7 +81,7 @@ header {
 		background-color: $lilac;
 	}
 	.fa-comment:hover {
-		color: $white;
+		color: $alfa_color;
 		transform: scale(1.2);
 	}
 
@@ -91,11 +90,11 @@ header {
 		padding: 12px 15px;
 		border-radius: 50%;
 		color: $black;
-		background-color: $white;
+		background-color: $alfa_color;
 		border: 1px solid $black;
 	}
 	.fa-arrow-up:hover {
-		color: $white;
+		color: $alfa_color;
 		background-color: $black;
 	}
 }

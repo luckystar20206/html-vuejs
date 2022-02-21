@@ -2,7 +2,19 @@
 	<div class="slide-in">
 		<div class="row h-100">
 			<div class="col-12 h-100 pe-5 d-flex">
-				<div class="testimonial-left img-transition col-4 px-5 h-100 d-flex flex-column justify-content-center" role="button">
+				<div
+					class="
+						testimonial-left
+						img-transition
+						col-4
+						px-5
+						h-100
+						d-flex
+						flex-column
+						justify-content-center
+					"
+					role="button"
+				>
 					<p class="pb-3">
 						When, while lovely valley teems with vapour around meand eridian sun
 						strikes the upper impenetrable foliage of my trees, and but a
@@ -12,7 +24,19 @@
 					<h5><strong>Vera Duncan</strong></h5>
 					<span>Amazon Inc.</span>
 				</div>
-				<div class="testimonial-middle img-transition col-4 px-5 h-100 d-flex flex-column justify-content-center" role="button">
+				<div
+					class="
+						testimonial-middle
+						img-transition
+						col-4
+						px-5
+						h-100
+						d-flex
+						flex-column
+						justify-content-center
+					"
+					role="button"
+				>
 					<p class="pb-3">
 						When, while lovely valley teems with vapour around meand eridian sun
 						strikes the upper impenetrable foliage of my trees, and but a
@@ -22,7 +46,19 @@
 					<h5><strong>Vera Duncan</strong></h5>
 					<span>Amazon Inc.</span>
 				</div>
-				<div class="testimonial-right img-transition col-4 px-5 h-100 d-flex flex-column justify-content-center" role="button">
+				<div
+					class="
+						testimonial-right
+						img-transition
+						col-4
+						px-5
+						h-100
+						d-flex
+						flex-column
+						justify-content-center
+					"
+					role="button"
+				>
 					<p class="pb-3">
 						When, while lovely valley teems with vapour around meand eridian sun
 						strikes the upper impenetrable foliage of my trees, and but a
@@ -46,10 +82,10 @@ export default {
 <style scoped lang="scss">
 @import "../assets/sass/_vars.scss";
 .slide-in {
-	height: 400px;
+	height: 500px;
 	width: 1600px;
-	background-color: $white;
-	color: $darkblue;
+	background-color: $alfa_color;
+	color: $beta_color;
 
 	h5 {
 		font-size: 26px;
@@ -58,7 +94,7 @@ export default {
 	}
 	span,
 	p {
-		color: $grey;
+		color: $omega_color;
 	}
 	.testimonial-left:hover {
 		background-image: url("../assets/images/oliver-ragfelt-488196-unsplash.jpg");
@@ -68,6 +104,12 @@ export default {
 	}
 	.testimonial-right:hover {
 		background-image: url("../assets/images/12679.jpg");
+	}
+	.testimonial-left:hover,
+	.testimonial-middle:hover,
+	.testimonial-right:hover {
+		background-repeat: no-repeat;
+		background-size: cover;
 	}
 }
 </style>

@@ -41,27 +41,27 @@ export default {
 	.highlight {
 		margin: 0 15px 5px 0;
 		width: 50px;
-		border-bottom: 2px solid $aqua;
+		border-bottom: 2px solid $psi_color;
 	}
 }
 .read-more {
 	padding: 25px 50px;
-	background-color: $aqua;
+	background-color: $psi_color;
 	color: $black;
 	margin-right: 30px;
 	letter-spacing: 3px;
 }
 .read-more:hover {
-	background-color: $red;
-	color: $white;
+	background-color: $gamma_color;
+	color: $alfa_color;
 }
 
 .fa-play {
-	border: 2px solid $white;
+	border: 2px solid $alfa_color;
 	border-radius: 50%;
 	padding: 15px 16px 15px 18px;
 	font-size: 16px;
-	color: $aqua;
+	color: $psi_color;
 	transform: scale(0.9);
 }
 .fa-play:hover {

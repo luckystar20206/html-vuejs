@@ -58,9 +58,9 @@ export default {
 <style lang="scss" scoped>
 @import "../assets/sass/_vars.scss";
 #footer-navbar {
-	color: $grey;
+	color: $omega_color;
 	height: 200px;
-	border-bottom: 1px solid $grey;
+	border-bottom: 1px solid $omega_color;
 
 	li,
 	i {
@@ -70,10 +70,10 @@ export default {
 	}
 	li:hover a,
 	i:hover {
-		color: $red;
+		color: $gamma_color;
 	}
 	i {
-		color: $white;
+		color: $alfa_color;
 		font-size: 18px;
 	}
 }

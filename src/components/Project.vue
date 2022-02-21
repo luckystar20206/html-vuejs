@@ -73,14 +73,14 @@ export default {
 <style lang="scss" scoped>
 @import "../assets/sass/_vars.scss";
 #project {
-	color: $white;
+	color: $alfa_color;
 	padding-top: 350px;
-	background-color: $darkblue;
+	background-color: $beta_color;
 
 	.main-project {
 		.highlight {
 			width: 50px;
-			border-bottom: 2px solid $aqua;
+			border-bottom: 2px solid $psi_color;
 		}
 		h2 {
 			letter-spacing: 3px;
@@ -101,10 +101,10 @@ export default {
 			background-color: $opacity;
 		}
 		a:hover {
-			color: $white;
+			color: $alfa_color;
 		}
 		i:hover {
-			background-color: $aqua;
+			background-color: $psi_color;
 		}
 		.project-images {
 			padding-bottom: 100px;

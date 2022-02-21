@@ -16,7 +16,4 @@ export default {
 
 <style lang="scss" scoped>
 @import "../assets/sass/_vars.scss";
-footer {
-	background-color: $darkblue;
-}
 </style>

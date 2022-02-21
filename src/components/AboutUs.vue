@@ -55,12 +55,12 @@ export default {
 	background-image: url("../assets/images/business-people-working-together-on-project-and-5FHSKBL.jpg");
 	background-repeat: no-repeat;
 	background-position: top left;
-	background-color: $darkblue;
 	height: 800px;
-	color: $white;
+	color: $alfa_color;
 
 	#spotlight {
 		height: 800px;
+		
 		h2 {
 			letter-spacing: 3px;
 			font-size: 16px;
@@ -72,24 +72,24 @@ export default {
 			line-height: 60px;
 		}
 		span {
-			color: $grey;
+			color: $omega_color;
 		}
 		.highlight {
 			margin: 0 15px 5px 0;
 			width: 50px;
-			border-bottom: 2px solid $aqua;
+			border-bottom: 2px solid $psi_color;
 		}
 	}
 	.slide-in {
 		height: 300px;
-		background-color: $aqua;
+		background-color: $psi_color;
 		position: relative;
-		color: $darkblue;
+		color: $beta_color;
 
 		.get-started {
-			color: $white;
+			color: $alfa_color;
 			padding: 25px 50px;
-			background-color: $red;
+			background-color: $gamma_color;
 			margin-right: 30px;
 			letter-spacing: 3px;
 			position: absolute;
@@ -97,7 +97,7 @@ export default {
 			right: -30px;
 		}
 		.get-started:hover {
-			background-color: $darkblue;
+			background-color: $beta_color;
 		}
 		h4 {
 			font-family: $secondary-font;

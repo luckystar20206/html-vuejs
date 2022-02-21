@@ -71,36 +71,37 @@ export default {
 @import "../assets/sass/_vars.scss";
 #consultants {
 	padding: 150px 0;
+	background-color: $alfa_color;
+
+	.statistical,
+	.digital {
+		padding-bottom: 100px;
+	}
 	h3 {
 		padding-left: 300px;
 		padding-bottom: 100px;
 		width: 70%;
 		font-size: 30px;
-		font-family: $secondary-font;
-		font-weight: 600;
 	}
-	h4 {
+	h4,
+	h3 {
 		font-family: $secondary-font;
 		font-weight: 600;
 	}
 	p {
-		color: $grey;
+		color: $omega_color;
 	}
 	.highlight {
 		width: 100%;
 		margin-bottom: 125px;
-		border-bottom: 4px solid $aqua;
+		border-bottom: 4px solid $psi_color;
 	}
 	.fa-solid {
 		padding: 25px 25px;
 		font-size: 28px;
-		background-color: $red;
+		background-color: $gamma_color;
 		border-radius: 50%;
-		color: $white;
+		color: $alfa_color;
 	}
-}
-.statistical,
-.digital {
-	padding-bottom: 100px;
 }
 </style>

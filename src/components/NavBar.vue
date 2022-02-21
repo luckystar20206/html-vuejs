@@ -41,14 +41,14 @@ export default {
 		font-weight: 100;
 	}
 	li:hover {
-		border-top: 5px solid $white;
+		border-top: 5px solid $alfa_color;
 	}
 	li.active {
-		border-top: 5px solid $white;
+		border-top: 5px solid $alfa_color;
 		font-weight: 600;
 	}
 	li:hover a {
-		color: $white;
+		color: $alfa_color;
 	}
 }
 </style>

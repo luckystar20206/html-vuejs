@@ -115,17 +115,16 @@ export default {
 	width: 8px;
 	height: 8px;
 }
-
 *::-webkit-scrollbar-track {
-	background: $darkblue;
+	background: $beta_color;
 }
-
 *::-webkit-scrollbar-thumb {
-	background-color: $aqua;
-	border: 3px solid $aqua;
+	background-color: $psi_color;
+	border: 3px solid $psi_color;
 }
 body {
 	font-family: $primary-font;
+	background-color: $beta_color;
 }
 main {
 	overflow: hidden;

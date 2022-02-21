@@ -36,7 +36,7 @@ export default {
 	background-position: bottom;
 
 	height: 700px;
-	color: $white;
+	color: $alfa_color;
 
 	.spotlight {
 		padding-top: 260px;
@@ -50,13 +50,13 @@ export default {
 		.read-more {
 			padding: 25px 50px;
 			background-color: $darkblue;
-			color: $white;
+			color: $alfa_color;
 			margin-right: 30px;
 			letter-spacing: 3px;
 		}
         .read-more:hover {
-            background-color: $aqua;
-            color: $darkblue;
+            background-color: $psi_color;
+            color: $beta_color;
         }
 	}
 }
