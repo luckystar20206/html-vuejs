@@ -1,34 +1,16 @@
 <template>
 	<div class="project-images col-12 d-flex justify-content-between pt-5 g-1">
-		<div class="position-relative">
-			<img
-				src="../assets/images/startup-business-people-and-strategy-board-PAJ3P9K-1390x1042.jpg"
-				alt="blog article"
-			/>
+		<div
+			v-for="(article, index) in blog"
+			:key="index"
+			class="position-relative"
+		>
+			<img :src="article.image" alt="blog article" />
 			<div class="article-box col-10" role="button">
 				<article class="transition">
-					<time>july 4, 2019 | by paul</time>
-					<h6 class="py-3">Canadian Consulting Firm acquired by UK Giant</h6>
-					<span>
-						When, while lovely valley teems with vapour around meand eridian sun
-						strikes the upper impenetrable foliage of my trees, and but a ...
-					</span>
-				</article>
-			</div>
-		</div>
-		<div class="position-relative">
-			<img
-				src="../assets/images/business-people-working-together-on-project-and-5FHSKBL-1390.jpg"
-				alt="blog article"
-			/>
-			<div class="article-box col-10" role="button">
-				<article class="transition">
-					<time>july 4, 2019 | by paul</time>
-					<h6 class="py-3">Canadian Consulting Firm acquired by UK Giant</h6>
-					<span>
-						When, while lovely valley teems with vapour around meand eridian sun
-						strikes the upper impenetrable foliage of my trees, and but a ...
-					</span>
+					<time>{{ article.date }}</time>
+					<h6 class="py-3">{{ article.title }}</h6>
+					<span>{{ article.text }}</span>
 				</article>
 			</div>
 		</div>
@@ -37,6 +19,26 @@
 <script>
 export default {
 	name: "Article",
+	data() {
+		return {
+			blog: [
+				{
+					image:
+						require("@/assets/images/startup-business-people-and-strategy-board-PAJ3P9K-1390x1042.jpg"),
+					date: "july 4, 2019 | by paul",
+					title: "Canadian Consulting Firm acquired by UK Giant",
+					text: "When, while lovely valley teems with vapour around meand eridian sun strikes the upper impenetrable foliage of my trees, and but a ...",
+				},
+				{
+					image:
+						require("@/assets/images/business-people-working-together-on-project-and-5FHSKBL-1390.jpg"),
+					date: "july 4, 2019 | by paul",
+					title: "Canadian Consulting Firm acquired by UK Giant",
+					text: "When, while lovely valley teems with vapour around meand eridian sun strikes the upper impenetrable foliage of my trees, and but a ...",
+				},
+			],
+		};
+	},
 };
 </script>
 

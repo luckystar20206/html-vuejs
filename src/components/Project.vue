@@ -28,22 +28,12 @@
 					</div>
 				</div>
 				<div class="project-images col-12 d-flex justify-content-between g-1">
-					<div class="filter-container">
-						<img src="../assets/images/DRY-1-790x592.jpg" alt="dry project" />
-						<div class="filter-box btn-transition"></div>
-					</div>
-					<div class="filter-container">
-						<img
-							src="../assets/images/221bf0b7-8134-43bb-936a-5acbe42db64a-790x592.jpg"
-							alt="sponsorship project"
-						/>
-						<div class="filter-box btn-transition"></div>
-					</div>
-					<div class="filter-container">
-						<img
-							src="../assets/images/z1el4c4p-790x592.jpg"
-							alt="consultant project"
-						/>
+					<div
+						v-for="(project, index) in projects"
+						:key="index"
+						class="filter-container"
+					>
+						<img :src="project.img" :alt="project.alt" />
 						<div class="filter-box btn-transition"></div>
 					</div>
 				</div>
@@ -58,6 +48,24 @@ import Testimonial from "@/components/Testimonial";
 export default {
 	name: "Project",
 	components: { Testimonial },
+	data() {
+		return {
+			projects: [
+				{
+					img: require("@/assets/images/DRY-1-790x592.jpg"),
+					alt: "project dry",
+				},
+				{
+					img: require("@/assets/images/221bf0b7-8134-43bb-936a-5acbe42db64a-790x592.jpg"),
+					alt: "sponsorship proposal",
+				},
+				{
+					img: require("@/assets/images/z1el4c4p-790x592.jpg"),
+					alt: "consulting vizeon",
+				},
+			],
+		};
+	},
 };
 </script>
 

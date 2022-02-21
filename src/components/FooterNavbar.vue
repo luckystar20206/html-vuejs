@@ -7,23 +7,16 @@
 					class="d-flex justify-content-between align-items-center"
 				>
 					<div class="logo">
-						<img src="../assets/images/logotype-2-150x25.png" alt="logo" />
+						<img :src="whiteLogo" alt="logo" />
 					</div>
 					<div class="footer-nav">
 						<ul class="list-unstyled d-flex mb-0">
-							<li><a class="transition" href="#">HOME</a></li>
-							<li><a class="transition" href="#">ABOUT</a></li>
-							<li><a class="transition" href="#">PROJECTS</a></li>
-							<li><a class="transition" href="#">SERVICES</a></li>
-							<li><a class="transition" href="#">BLOG</a></li>
-							<li><a class="transition" href="#">CONTACTS</a></li>
+							<li v-for="(link, index) in navbarlinks"
+						:key="index"><a class="transition" :href="link.url">{{link.text.toUpperCase()}}</a></li>
 						</ul>
 					</div>
 					<div class="social-icons">
-						<i class="fa-brands fa-instagram transition" role="button"></i>
-						<i class="fa-brands fa-linkedin-in transition" role="button"></i>
-						<i class="fa-brands fa-facebook-f transition" role="button"></i>
-						<i class="fa-brands fa-twitter transition" role="button"></i>
+						<i v-for="(contact, index) in contacts" :key="index" class="fa-brands" :class="contact.icon" role="button"></i>
 					</div>
 				</div>
 			</div>
@@ -52,6 +45,25 @@
 <script>
 export default {
 	name: "FooterNavbar",
+	data() {
+		return {
+			whiteLogo: require("@/assets/images/logotype-2-150x25.png"),
+			navbarlinks: [
+				{ url: "#", text: "home" },
+				{ url: "#", text: "about" },
+				{ url: "#", text: "projects" },
+				{ url: "#", text: "services" },
+				{ url: "#", text: "blog" },
+				{ url: "#", text: "contact" },
+			],
+			contacts: [
+				{ title: "instagram", icon: "fa-brands fa-instagram" },
+				{ title: "linkedin", icon: "fa-brands fa-linkedin-in" },
+				{ title: "facebook", icon: "fa-brands fa-facebook-f" },
+				{ title: "twitter", icon: "fa-brands fa-twitter" },
+			],
+		};
+	},
 };
 </script>
 

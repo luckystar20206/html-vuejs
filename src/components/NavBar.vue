@@ -2,16 +2,19 @@
 	<div class="col-12">
 		<div id="navbar" class="d-flex justify-content-between align-items-center">
 			<div class="logo">
-				<img src="../assets/images/logotype.png" alt="logo" />
+				<img :src="redLogo" alt="logo" />
 			</div>
 			<div class="nav">
 				<ul class="list-unstyled d-flex">
-					<li class="active"><a class="transition" href="#">HOME</a></li>
-					<li class="transition" ><a href="#">ABOUT</a></li>
-					<li class="transition" ><a href="#">PROJECTS</a></li>
-					<li class="transition" ><a href="#">SERVICES</a></li>
-					<li class="transition" ><a href="#">BLOG</a></li>
-					<li class="transition" ><a href="#">CONTACTS</a></li>
+					<li
+						v-for="(link, index) in navbarlinks"
+						:key="index"
+						:class="{ active: index == 0 }"
+					>
+						<a class="transition" :href="link.url">{{
+							link.text.toUpperCase()
+						}}</a>
+					</li>
 				</ul>
 			</div>
 		</div>
@@ -21,6 +24,19 @@
 <script>
 export default {
 	name: "NavBar",
+	data() {
+		return {
+			redLogo: require("@/assets/images/logotype.png"),
+			navbarlinks: [
+				{ url: "#", text: "home" },
+				{ url: "#", text: "about" },
+				{ url: "#", text: "projects" },
+				{ url: "#", text: "services" },
+				{ url: "#", text: "blog" },
+				{ url: "#", text: "contact" },
+			],
+		};
+	},
 };
 </script>
 
