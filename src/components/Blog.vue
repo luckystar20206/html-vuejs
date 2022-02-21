@@ -14,17 +14,17 @@
 						</div>
 					</div>
 				</div>
-				<Article />
+				<BlogArticle />
 			</div>
 		</div>
 	</section>
 </template>
 
 <script>
-import Article from "@/components/Article";
+import BlogArticle from "@/components/BlogArticle";
 export default {
 	name: "Blog",
-	components: { Article },
+	components: { BlogArticle },
 };
 </script>
 

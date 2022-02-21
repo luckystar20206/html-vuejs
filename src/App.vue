@@ -113,6 +113,7 @@ export default {
 @import "./assets/sass/style.scss";
 *::-webkit-scrollbar {
 	width: 8px;
+	height: 8px;
 }
 
 *::-webkit-scrollbar-track {

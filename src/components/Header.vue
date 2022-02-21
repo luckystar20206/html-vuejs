@@ -13,9 +13,10 @@
 					@click="toTop"
 					class="fa-solid fa-arrow-up btn-transition"
 					role="button"
+					id="scroll"
 				></i
 			></a>
-			<a href="#"><i class="fa-regular fa-comment" role="button"></i></a>
+			<a href="#"><i class="fa-regular fa-comment transition" role="button"></i></a>
 		</div>
 	</header>
 </template>
@@ -75,13 +76,14 @@ header {
 		margin: 0 50px 0 20px;
 	}
 	.fa-comment {
-		font-size: 30px;
+		font-size: 26px;
 		padding: 16px;
 		border-radius: 50%;
 		background-color: $lilac;
 	}
 	.fa-comment:hover {
 		color: $white;
+		transform: scale(1.2);
 	}
 
 	.fa-arrow-up {

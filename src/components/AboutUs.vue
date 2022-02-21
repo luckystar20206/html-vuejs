@@ -1,10 +1,10 @@
 <template>
 	<section id="about-us">
-		<div class="container ps-0 ms-0">
-			<div class="row">
-				<div class="col-5 offset-10">
-					<div id="spotlight">
-						<div class="spotlight-title d-flex align-items-center">
+		<div class="container ps-0 ms-0 ">
+			<div class="row ">
+				<div class="col-5 offset-11 ">
+					<div id="spotlight" class="d-flex flex-column justify-content-center">
+						<div class="spotlight-title">
 							<div class="highlight"></div>
 							<h2>ABOUT US</h2>
 						</div>
@@ -19,20 +19,22 @@
 						</span>
 					</div>
 				</div>
-			</div>
-			<div class="slide-in">
-				<div class="container h-100">
-					<div class="row h-100 align-items-center">
-						<div class="col-4 offset-1">
-							<h4>WE HELP TO DELIVER THE BUSINESS CASE</h4>
-						</div>
-						<div class="col-5 offset-1">
-							<p>
-								When, while lovely valley teems with vapour around meand
-								meridian sun strikes the upper impenetrable foliage of my trees,
-								and but a thousand unknown
-							</p>
-							<a class="get-started btn-transition" href="#" role="button">GET STARTED</a>
+				<div class="slide-in">
+					<div class="container h-100">
+						<div class="row h-100 align-items-center">
+							<div class="col-4 offset-1">
+								<h4>WE HELP TO DELIVER THE BUSINESS CASE</h4>
+							</div>
+							<div class="col-5 offset-1">
+								<p>
+									When, while lovely valley teems with vapour around meand
+									meridian sun strikes the upper impenetrable foliage of my
+									trees, and but a thousand unknown
+								</p>
+								<a class="get-started btn-transition" href="#" role="button"
+									>GET STARTED</a
+								>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -58,7 +60,7 @@ export default {
 	color: $white;
 
 	#spotlight {
-		padding: 240px 0 150px 50px;
+		height: 800px;
 		h2 {
 			letter-spacing: 3px;
 			font-size: 16px;
@@ -79,10 +81,9 @@ export default {
 		}
 	}
 	.slide-in {
-		height: 400px;
-		width: 1600px;
+		height: 300px;
 		background-color: $aqua;
-		position: absolute;
+		position: relative;
 		color: $darkblue;
 
 		.get-started {
