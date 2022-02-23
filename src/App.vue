@@ -18,21 +18,5 @@ export default {
 </script>
 
 <style lang="scss">
-@import "./assets/sass/style.scss";
-*::-webkit-scrollbar {
-	width: 8px;
-	height: 8px;
-}
-*::-webkit-scrollbar-thumb {
-	background-color: $psi_color;
-	border: 3px solid $psi_color;
-}
-body {
-	color: $alfa_color;
-	font-family: $primary-font;
-	background-color: $beta_color;
-}
-main {
-	overflow: hidden;
-}
+@import './assets/sass/style.scss';
 </style>
